@@ -11,7 +11,7 @@ public class ExemploControle {
 	
 	public String getDados(Model model){
 		
-		model.addAttribute("mensagem","Hello World!");
+		model.addAttribute("mensagem","Hello World! Consegui");
 		
 		return "dados/index";
 		
